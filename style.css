@@ -1,7 +1,49 @@
-* {
-  outline: 1px solid red;
+h1, h2, h3, h4, p{
+  margin: 0px;
 }
 
-h1, h2, h3, h4{
-  margin: 0px;
+header{
+  /* NOTE could use height but using padding */
+
+  padding: 3vh 0 1vh 0;
+  text-align: center;
+  background-color: rgb(28, 69, 134);
+  color: white;
+  font-size: 40pt;
+}
+
+.d-flex {
+  display: flex;
+}
+
+main{
+  height: 75vh;
+}
+
+middles {
+  margin: 5.3vh 7% 1vh 25%;
+  border-top: 2vh solid rgba(205, 226, 245);
+}
+
+#middle-text {
+  padding: 0.9vh 0 0 0.5vh;
+}
+
+.substance {
+  padding: 2vh 0.5vw 0 1vw;
+  font-size: medium;
+}
+
+right-middle {
+  margin: 10% 2vw 40% 0;
+}
+
+#right-small-text{
+  margin-top: 1vh;
+  font-size: 12px;
+}
+
+footer{
+  background-color: rgb(28, 69, 134);
+  height: 13vh;
 }
